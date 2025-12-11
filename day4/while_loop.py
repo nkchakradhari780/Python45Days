@@ -1,5 +1,11 @@
+x = 4
+y = 0
 
-list = [10, 20, 30, 40, 50]
-
-for i in list:
-    print(i)
+while x >= 0: 
+    x -= 1 
+    y += 1
+    
+    if x == y: 
+        continue
+    else: 
+        print(x,y)
