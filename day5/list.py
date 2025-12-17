@@ -54,3 +54,11 @@ print(fruits)
 
 fruits[1:3] = ["kiwi_changed", "cherry_changed"]
 print(fruits)
+
+# sorting a list 
+
+fruits.sort()
+print(fruits)
+
+fruits.sort(reverse=True)
+print(fruits)
