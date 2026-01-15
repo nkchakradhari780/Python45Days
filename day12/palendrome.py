@@ -1,12 +1,10 @@
 def checkPalendrome(str):
-    reverse = str[::-1]
+    str1 = str.replace(" ", "")
+    reverse = str1[::-1]
     print(reverse)
-    if str.lower() == reverse.lower():
-        return True
-    else: 
-        return False
+    return str1.lower() == reverse.lower()
 
 
-str = "Nitin"
+str = "Ni t in"
 palendrom = checkPalendrome(str)
 print(palendrom)
