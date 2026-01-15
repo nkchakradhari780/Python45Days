@@ -16,3 +16,17 @@ print(str4)
 str1 = "       Hello Nkchakradhari     "
 str2 = str1.strip()
 print(str2)
+
+# replacing sub string 
+str1 = "Hello world, what a beautifull world this is "
+print(str1.replace("world", "earth", 1))
+print(str1.replace("world", "earth"))
+
+#split the string into a list of sub strings 
+fruits = "Apple Banana Kiwi Chery Mango Gwawa"
+fruitList = fruits.split()
+print(fruitList)
+
+Names = "Nitin,Sanjay,Amit,Komal,Ekta,Isha,Damin"
+NameList = Names.split(",",2)       # split by , and upto 2 splits 
+print(NameList)
